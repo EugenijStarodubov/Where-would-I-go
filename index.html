@@ -1,29 +1,44 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Проект для соревнований">
-    <meta name="keywords" content="html,css">
-    <meta name="author" content="Titarenko Andrey">
-    <meta name="author" content="Starodubov Evgeniy">
-    <link rel="stylesheet" href="pages/index.css">
-    <title>Куда я поеду</title>
-  </head>
-  <body class="page">
-    <header class="header"></header>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Проект для соревнований" />
+		<meta name="keywords" content="html,css" />
+		<meta name="author" content="Titarenko Andrey" />
+		<meta name="author" content="Starodubov Evgeniy" />
+		<link rel="stylesheet" href="./pages/index.css" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Куда я поеду</title>
+	</head>
+	<body class="page">
+		<div class="page__content">
+			<header class="header page__header">
+				<a href="#" class="link header__link link_place_right">Пожаловаться</a>
+				<nav class="header__menu">
+					<ul class="header__menu-items">
+						<li class="header__menu-item">
+							<a href="#" class="link header__link">Мечты</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#" class="link header__link">Ожидания</a>
+						</li>
+						<li class="header__menu-item">
+							<a href="#" class="link header__link">Реальность</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<main class="page__content">
+				<section class="lead"></section>
+				<section class="places">
+					<article class="place"></article>
+				</section>
 
-    <main class="content">
-        <section class="lead"></section>
-        <section class="places">
-            <article class="place"></article>
-        </section>
+				<section class="quotes"></section>
 
-        <section class="quotes"></section>
-
-        <footer class="footer"></footer>
-        
-    </main>
-
-  </body>
+				<footer class="footer"></footer>
+			</main>
+		</div>
+	</body>
 </html>
