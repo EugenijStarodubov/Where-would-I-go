@@ -40,6 +40,9 @@
 @import url("../blocks/quotes/__item/quotes__item.css");
 @import url("../blocks/quotes/__author/quote__author.css");
 @import url("../blocks/quotes/__blockquote/quotes__blockquote.css");
+/*																	FOOTER																	*/
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");
 /*																	GRID-BLOCK																	*/
 @import url("../blocks/grid-block/grid-block.css");
 @import url("../blocks/grid-block/_image-place_top/grid-block_image-place_odd.css");
