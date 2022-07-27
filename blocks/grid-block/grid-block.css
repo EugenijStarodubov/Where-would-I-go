@@ -1,0 +1,8 @@
+.grid-block {
+	display: grid;
+	grid-template-areas:
+		"title"
+		"image"
+		"text";
+	justify-items: center;
+}

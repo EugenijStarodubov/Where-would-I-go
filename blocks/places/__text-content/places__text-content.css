@@ -1,0 +1,8 @@
+.places__text-content {
+	padding: 0;
+	margin: 0;
+	width: 90%;
+	grid-area: text;
+	display: flex;
+	flex-direction: column;
+}

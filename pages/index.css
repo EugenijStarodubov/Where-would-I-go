@@ -21,3 +21,25 @@
 @import url("../blocks/lead-block/__text-content/lead-block__text-content.css");
 @import url("../blocks/lead-block/__title/lead-block__title.css");
 @import url("../blocks/lead-block/__image/lead-block__image.css");
+/*																	PLACES																	*/
+@import url("../blocks/places/places.css");
+@import url("../blocks/page/__places/page__places.css");
+@import url("../blocks/places/__items/places__items.css");
+@import url("../blocks/places/__item/places__item.css");
+@import url("../blocks/places/__image/places__image.css");
+@import url("../blocks/places/__text-content/places__text-content.css");
+@import url("../blocks/places/__title/places__title.css");
+@import url("../blocks/places/__text/places__text.css");
+@import url("../blocks/places/__paragraph/places__paragraph.css");
+/*																	QUOTES																	*/
+@import url("../blocks/quotes/quotes.css");
+@import url("../blocks/page/__quotes/page__quotes.css");
+@import url("../blocks/quotes/__title/quotes__title.css");
+@import url("../blocks/quotes/__subtitle/quotes__subtitle.css");
+@import url("../blocks/quotes/__items/quotes__items.css");
+@import url("../blocks/quotes/__item/quotes__item.css");
+@import url("../blocks/quotes/__author/quote__author.css");
+@import url("../blocks/quotes/__blockquote/quotes__blockquote.css");
+/*																	GRID-BLOCK																	*/
+@import url("../blocks/grid-block/grid-block.css");
+@import url("../blocks/grid-block/_image-place_top/grid-block_image-place_odd.css");

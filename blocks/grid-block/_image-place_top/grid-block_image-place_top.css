@@ -1,0 +1,5 @@
+.grid-block_image-place_odd {
+	grid-template-areas:
+		"image"
+		"text";
+}

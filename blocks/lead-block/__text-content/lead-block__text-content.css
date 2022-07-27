@@ -1,4 +1,5 @@
 .lead-block__text-content {
+	grid-area: text;
 	box-sizing: border-box;
 	width: 90%;
 }

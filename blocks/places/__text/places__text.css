@@ -1,0 +1,6 @@
+.places__text {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-columns: repeat(auto-fit, min-content);
+	row-gap: 16px;
+}
