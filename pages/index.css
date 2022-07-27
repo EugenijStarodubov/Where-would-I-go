@@ -1,11 +1,23 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
+/*																	LINK																	*/
+@import url("../blocks/link/link.css");
+@import url("../blocks/link/_place_right/link_place_right.css");
+/*																	TITLE																	*/
+@import url("../blocks/title/title.css");
+/*																	SUBTITLE																	*/
+@import url("../blocks/subtitle/subtitle.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/page/__content/page__content.css");
+/*																	HEADER																	*/
 @import url("../blocks/header/header.css");
 @import url("../blocks/page/__header/page__header.css");
 @import url("../blocks/header/__menu/header__menu.css");
 @import url("../blocks/header/__menu-items/header__menu-items.css");
 @import url("../blocks/header/__menu-item/header__menu-item.css");
-@import url("../blocks/link/link.css");
-@import url("../blocks/link/_place_right/link_place_right.css");
+/*																	LEAD-BLOCK																	*/
+@import url("../blocks/lead-block/lead-block.css");
+@import url("../blocks/page/__lead-block/page__lead-block.css");
+@import url("../blocks/lead-block/__text-content/lead-block__text-content.css");
+@import url("../blocks/lead-block/__title/lead-block__title.css");
+@import url("../blocks/lead-block/__image/lead-block__image.css");
