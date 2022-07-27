@@ -4,9 +4,11 @@
 
 .places {
 	width: 100%;
+	background-color: #f2f2f2;
 }
 
 .page__places {
+	margin-bottom: 50px;
 }
 .places__items {
 	list-style: none;
@@ -24,6 +26,7 @@
 .places__image {
 	grid-area: "image";
 	width: 100%;
+	height: 82%;
 	object-fit: cover;
 }
 .places__text-content {
@@ -44,18 +47,14 @@
 	text-align: center;
 }
 .places__text {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-columns: repeat(auto-fit, min-content);
+	row-gap: 16px;
 }
 .places__paragraph {
 	padding: 0;
-	padding-top: 16px;
 	margin: 0;
 	font-size: 18px;
 	align-self: end;
-}
-
-.places__text:last-of-type {
-	margin-bottom: 30px;
-}
-.places__items:nth-of-type(4) {
-	display: none;
 }
