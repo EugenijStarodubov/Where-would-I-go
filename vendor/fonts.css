@@ -1,0 +1,23 @@
+@font-face {
+	font-family: "Ubuntu";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Ubuntu"), url("./fonts/ubuntu.woff2") format("woff2"),
+		url("./fonts/ubuntu.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Inter"), url("./fonts/ubuntu-medium.woff2") format("woff2"),
+		url("./fonts/ubuntu-medium.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 900;
+	src: local("Inter"), url("./fonts/ubuntu-bold.woff2") format("woff2"),
+		url("./fonts/ubuntu-bold.woff") format("woff");
+}
