@@ -1,21 +1,16 @@
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
-/*																	LINK																	*/
 @import url("../blocks/link/link.css");
 @import url("../blocks/link/_place_right/link_place_right.css");
-/*																	TITLE																	*/
 @import url("../blocks/title/title.css");
-/*																	SUBTITLE																	*/
 @import url("../blocks/subtitle/subtitle.css");
 @import url("../blocks/page/page.css");
 @import url("../blocks/page/__content/page__content.css");
-/*																	HEADER																	*/
 @import url("../blocks/header/header.css");
 @import url("../blocks/page/__header/page__header.css");
 @import url("../blocks/header/__menu/header__menu.css");
 @import url("../blocks/header/__menu-items/header__menu-items.css");
 @import url("../blocks/header/__menu-item/header__menu-item.css");
-/*																	LEAD-BLOCK																	*/
 @import url("../blocks/lead-block/lead-block.css");
 @import url("../blocks/page/__lead-block/page__lead-block.css");
 @import url("../blocks/lead-block/__content/lead-block__content.css");
@@ -23,7 +18,6 @@
 @import url("../blocks/lead-block/__title/lead-block__title.css");
 @import url("../blocks/lead-block/__subtitle/lead-block__subtitle.css");
 @import url("../blocks/lead-block/__image/lead-block__image.css");
-/*																	PLACES																	*/
 @import url("../blocks/places/places.css");
 @import url("../blocks/page/__places/page__places.css");
 @import url("../blocks/places/__content/places__content.css");
@@ -34,7 +28,6 @@
 @import url("../blocks/places/__title/places__title.css");
 @import url("../blocks/places/__text/places__text.css");
 @import url("../blocks/places/__paragraph/places__paragraph.css");
-/*																	QUOTES																	*/
 @import url("../blocks/quotes/quotes.css");
 @import url("../blocks/page/__quotes/page__quotes.css");
 @import url("../blocks/quotes/__content/quotes__content.css");
@@ -44,9 +37,7 @@
 @import url("../blocks/quotes/__item/quotes__item.css");
 @import url("../blocks/quotes/__author/quotes__author.css");
 @import url("../blocks/quotes/__blockquote/quotes__blockquote.css");
-/*																	FOOTER																	*/
 @import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
-/*																	GRID-BLOCK																	*/
 @import url("../blocks/grid-block/grid-block.css");
 @import url("../blocks/grid-block/_place_places/grid-block_place_places.css");
