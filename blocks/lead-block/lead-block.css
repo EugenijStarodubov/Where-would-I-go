@@ -3,12 +3,3 @@
 	margin: 0;
 	width: 100%;
 }
-
-@media screen and (min-width: 1280px) {
-	.lead-block {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: flex-end;
-	}
-}

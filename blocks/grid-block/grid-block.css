@@ -8,17 +8,6 @@
 
 @media screen and (min-width: 768px) {
 	.grid-block {
-		grid-template-areas:
-			"title image"
-			"text image";
-		grid-template-columns: 1fr 1fr;
-	}
-}
-
-@media screen and (min-width: 1280px) {
-	.grid-block {
-		grid-template-areas:
-			"text image"
-			"text image";
+		grid-template-areas: "text image";
 	}
 }

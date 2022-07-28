@@ -1,12 +1,20 @@
 .lead-block__title {
-	margin: 0;
-	width: 90%;
+	margin: 0 auto;
+	width: 100%;
+	margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
 	.lead-block__title {
+		margin-bottom: 15px;
 		grid-area: title;
 		align-self: end;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.lead-block__title {
+		margin-bottom: 25px;
 	}
 }
 

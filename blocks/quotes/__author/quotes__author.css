@@ -1,0 +1,14 @@
+.quotes__author {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	margin-bottom: 11px;
+	font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+	.quotes__author {
+		padding-left: 8px;
+		text-align: left;
+	}
+}

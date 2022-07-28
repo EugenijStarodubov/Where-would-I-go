@@ -3,5 +3,11 @@
 	box-sizing: border-box;
 	width: 90%;
 	align-self: center;
-	justify-self: end;
+	justify-self: center;
+}
+
+@media screen and (min-width: 768px) {
+	.lead-block__text-content {
+		justify-self: end;
+	}
 }

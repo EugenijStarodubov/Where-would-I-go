@@ -1,7 +1,20 @@
 .places__paragraph {
 	padding: 0;
 	margin: 0;
-	font-size: 18px;
+	font-size: 16px;
 	align-self: end;
 	line-height: 160%;
+}
+
+@media screen and (min-width: 768px) {
+	.places__paragraph {
+		width: 90%;
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.places__paragraph {
+		width: 70%;
+	}
 }

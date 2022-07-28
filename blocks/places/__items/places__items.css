@@ -16,12 +16,3 @@
 .places__item:nth-of-type(2) .places__paragraph:nth-of-type(3) {
 	display: none;
 }
-
-@media screen and (min-width: 768px) {
-	.places__items {
-		display: grid;
-		justify-items: center;
-
-		row-gap: 30px;
-	}
-}

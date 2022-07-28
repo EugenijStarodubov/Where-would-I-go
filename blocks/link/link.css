@@ -11,7 +11,7 @@
 	opacity: 0.6;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
 	.link {
 		font-size: 14px;
 		font-weight: 700;

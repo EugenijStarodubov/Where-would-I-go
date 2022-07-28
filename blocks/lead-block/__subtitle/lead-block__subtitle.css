@@ -1,15 +1,13 @@
-@media screen and (min-width: 768px) {
-	.lead-block__subtitle {
-		text-align: left;
-	}
+.lead-block__subtitle {
+	width: 100%;
+	text-align: left;
+	justify-self: center;
+	align-self: center;
+	margin-bottom: 15px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 768px) {
 	.lead-block__subtitle {
-		width: 100%;
-		text-align: left;
-
-		justify-self: center;
-		align-self: center;
+		margin: 0;
 	}
 }

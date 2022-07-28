@@ -1,13 +1,27 @@
 .quote__subtitle {
-	text-align: center;
-	margin-bottom: 24px;
+	margin-bottom: 40px;
+	text-align: left;
 }
 
 @media screen and (min-width: 768px) {
 	.quote__subtitle {
+		text-align: center;
+		margin-bottom: 24px;
 		width: 100%;
 		width: 50%;
-		text-align: left;
 		justify-self: start;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.quote__subtitle {
+		margin-bottom: 88px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.quote__subtitle {
+		width: 40%;
+		margin-bottom: 115px;
 	}
 }
