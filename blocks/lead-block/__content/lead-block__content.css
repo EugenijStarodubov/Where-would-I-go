@@ -1,0 +1,7 @@
+.lead-block__content {
+	width: 100%;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	row-gap: 20px;
+}

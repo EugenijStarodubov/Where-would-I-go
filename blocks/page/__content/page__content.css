@@ -5,3 +5,15 @@
 	max-width: 320px;
 	background-color: #fff;
 }
+
+@media screen and (min-width: 425px) {
+	.page__content {
+		max-width: 425px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.page__content {
+		max-width: 768px;
+	}
+}

@@ -1,6 +1,5 @@
 .lead-block {
+	padding: 0;
+	margin: 0;
 	width: 100%;
-
-	gap: 20px;
-	justify-items: center;
 }

@@ -6,3 +6,13 @@
 		"text";
 	justify-items: center;
 }
+
+@media screen and (min-width: 768px) {
+	.grid-block {
+		grid-template-areas:
+			"title image"
+			"text image";
+		justify-items: center;
+		grid-template-columns: minmax(min-content, 300px) 300px;
+	}
+}

@@ -18,6 +18,7 @@
 /*																	LEAD-BLOCK																	*/
 @import url("../blocks/lead-block/lead-block.css");
 @import url("../blocks/page/__lead-block/page__lead-block.css");
+@import url("../blocks/lead-block/__content/lead-block__content.css");
 @import url("../blocks/lead-block/__text-content/lead-block__text-content.css");
 @import url("../blocks/lead-block/__title/lead-block__title.css");
 @import url("../blocks/lead-block/__image/lead-block__image.css");
