@@ -36,7 +36,7 @@
 
 ## **Проект выложен на ресурс GitHub:**
 
-- [Куда бы я поехал](https://andrewtitarenko.github.io/competition/)
+- [Куда бы я поехал](https://andrewtitarenko.github.io/competition/index.html)
 
 ### Авторы
 
