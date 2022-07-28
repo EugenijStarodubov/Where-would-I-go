@@ -26,6 +26,7 @@
 /*																	PLACES																	*/
 @import url("../blocks/places/places.css");
 @import url("../blocks/page/__places/page__places.css");
+@import url("../blocks/places/__content/places__content.css");
 @import url("../blocks/places/__items/places__items.css");
 @import url("../blocks/places/__item/places__item.css");
 @import url("../blocks/places/__image/places__image.css");
@@ -36,6 +37,7 @@
 /*																	QUOTES																	*/
 @import url("../blocks/quotes/quotes.css");
 @import url("../blocks/page/__quotes/page__quotes.css");
+@import url("../blocks/quotes/__content/quotes__content.css");
 @import url("../blocks/quotes/__title/quotes__title.css");
 @import url("../blocks/quotes/__subtitle/quotes__subtitle.css");
 @import url("../blocks/quotes/__items/quotes__items.css");

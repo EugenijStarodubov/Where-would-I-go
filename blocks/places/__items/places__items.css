@@ -1,4 +1,5 @@
 .places__items {
+	width: 100%;
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -18,7 +19,6 @@
 
 @media screen and (min-width: 768px) {
 	.places__items {
-		width: 100%;
 		display: grid;
 		justify-items: center;
 

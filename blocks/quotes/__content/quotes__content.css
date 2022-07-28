@@ -1,0 +1,15 @@
+.quotes__content {
+	width: 90%;
+	margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+	.quotes__content {
+		width: 90%;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: min-content 1fr;
+		align-items: center;
+		justify-items: center;
+	}
+}

@@ -1,9 +1,11 @@
 .grid-block {
+	width: 100%;
 	display: grid;
 	grid-template-areas:
 		"title"
-		"image"
-		"text";
+		"text"
+		"image";
+	justify-items: center;
 }
 
 @media screen and (min-width: 768px) {

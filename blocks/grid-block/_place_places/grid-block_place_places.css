@@ -1,5 +1,6 @@
 .grid-block_place_places {
 	grid-template-areas:
+		"title"
 		"image"
 		"text";
 }

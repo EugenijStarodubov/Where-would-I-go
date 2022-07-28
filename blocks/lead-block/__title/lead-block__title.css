@@ -5,6 +5,7 @@
 
 @media screen and (min-width: 768px) {
 	.lead-block__title {
+		grid-area: title;
 		align-self: end;
 	}
 }
