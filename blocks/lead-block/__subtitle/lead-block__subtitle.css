@@ -1,0 +1,5 @@
+@media screen and (min-width: 768px) {
+	.lead-block__subtitle {
+		text-align: left;
+	}
+}

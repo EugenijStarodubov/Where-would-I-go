@@ -21,6 +21,7 @@
 @import url("../blocks/lead-block/__content/lead-block__content.css");
 @import url("../blocks/lead-block/__text-content/lead-block__text-content.css");
 @import url("../blocks/lead-block/__title/lead-block__title.css");
+@import url("../blocks/lead-block/__subtitle/lead-block__subtitle.css");
 @import url("../blocks/lead-block/__image/lead-block__image.css");
 /*																	PLACES																	*/
 @import url("../blocks/places/places.css");
@@ -46,4 +47,4 @@
 @import url("../blocks/footer/__copyright/footer__copyright.css");
 /*																	GRID-BLOCK																	*/
 @import url("../blocks/grid-block/grid-block.css");
-@import url("../blocks/grid-block/_image-place_top/grid-block_image-place_odd.css");
+@import url("../blocks/grid-block/_place_places/grid-block_place_places.css");

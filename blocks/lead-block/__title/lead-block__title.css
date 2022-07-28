@@ -5,6 +5,6 @@
 
 @media screen and (min-width: 768px) {
 	.lead-block__title {
-		width: 90%;
+		align-self: end;
 	}
 }
