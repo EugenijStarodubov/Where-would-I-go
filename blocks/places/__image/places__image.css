@@ -2,7 +2,7 @@
 	grid-area: image;
 	display: block;
 	width: 100%;
-	min-height: 220px;
+	max-height: 220px;
 	object-fit: cover;
 	margin-bottom: 35px;
 }
@@ -18,7 +18,7 @@
 @media screen and (min-width: 1024px) {
 	.places__image {
 		max-width: 550px;
-		min-height: 400px;
+		max-height: 400px;
 		align-self: center;
 	}
 }
@@ -26,6 +26,6 @@
 @media screen and (min-width: 1280px) {
 	.places__image {
 		max-width: 650px;
-		min-height: 550px;
+		max-height: 550px;
 	}
 }
