@@ -5,3 +5,8 @@
 	align-items: center;
 	row-gap: 20px;
 }
+
+@media screen and (min-width: 1280px) {
+	.lead-block__content {
+	}
+}

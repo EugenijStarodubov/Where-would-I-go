@@ -3,3 +3,12 @@
 	width: 90%;
 	object-fit: cover;
 }
+
+@media screen and (min-width: 1280px) {
+	.lead-block__image {
+		max-width: 360px;
+		max-height: 360px;
+		justify-self: center;
+		padding: 0;
+	}
+}

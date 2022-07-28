@@ -2,5 +2,6 @@
 	grid-area: text;
 	box-sizing: border-box;
 	width: 90%;
-	align-self: start;
+	align-self: center;
+	justify-self: end;
 }

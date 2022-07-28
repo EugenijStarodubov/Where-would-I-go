@@ -2,7 +2,7 @@
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	width: 90%;
+	width: 100%;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(auto-fit, minmax(min-content, 1fr));
@@ -12,9 +12,17 @@
 
 @media screen and (min-width: 768px) {
 	.quotes__items {
-		width: 100%;
 		justify-items: start;
 		grid-template-columns: repeat(2, 1fr);
+		column-gap: 24px;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.quotes__items {
+		justify-items: start;
+		grid-template-columns: repeat(4, minmax(min-content, 25%));
+		grid-template-rows: min-content;
 		column-gap: 24px;
 	}
 }

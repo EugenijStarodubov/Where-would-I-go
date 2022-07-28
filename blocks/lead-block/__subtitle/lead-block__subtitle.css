@@ -3,3 +3,13 @@
 		text-align: left;
 	}
 }
+
+@media screen and (min-width: 1280px) {
+	.lead-block__subtitle {
+		width: 100%;
+		text-align: left;
+
+		justify-self: center;
+		align-self: center;
+	}
+}

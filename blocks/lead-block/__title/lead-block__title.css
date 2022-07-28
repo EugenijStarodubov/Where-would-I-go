@@ -9,3 +9,9 @@
 		align-self: end;
 	}
 }
+
+@media screen and (min-width: 1280px) {
+	.lead-block__title {
+		margin-bottom: 30px;
+	}
+}

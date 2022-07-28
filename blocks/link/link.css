@@ -10,3 +10,10 @@
 .link:hover {
 	opacity: 0.6;
 }
+
+@media screen and (min-width: 1280px) {
+	.link {
+		font-size: 14px;
+		font-weight: 700;
+	}
+}
